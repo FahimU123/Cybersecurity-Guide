@@ -164,7 +164,7 @@ grep -E "error|warning" filename.txt
 Finds lines containing "error" or "warning."
 
 9. awk
-10. 
+     
 Purpose: Processes and manipulates text, especially by breaking it into fields (columns).
 
 Basic Usage:
