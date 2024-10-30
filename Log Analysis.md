@@ -15,11 +15,16 @@ sort filename.txt
 
 Options:
 -r: Reverses the order of sorting.
+
 -n: Sorts numerically (useful for numbers).
+
 -u: Outputs only unique lines.
+
 -k: Sorts by a specific column or "key."
 
+
 Examples:
+
 Reverse Sorting:
 
 ```
@@ -34,7 +39,7 @@ sort -k 2 filename.txt
 ```
 
 4. uniq
-5. 
+
 Purpose: Filters out consecutive duplicate lines, usually used after sort.
 
 Basic Usage:
