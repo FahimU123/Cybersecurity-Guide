@@ -51,8 +51,11 @@ uniq filename.txt
 
 Options:
 -c: Counts each unique line’s occurrences.
+
 -d: Shows only duplicate lines.
+
 -u: Shows only unique lines.
+
 
 Examples:
 
@@ -90,12 +93,19 @@ grep "pattern" filename.txt
 
 Options:
 -i: Ignores case, matching both uppercase and lowercase.
+
 -o: Only shows the matching parts of each line, not the whole line.
+
 -v: Inverts the match, showing lines that don’t match the pattern.
+
 -c: Counts the number of lines that match.
+
 -r: Recursively searches all files in a directory.
+
 -A n: Shows n lines after each match.
+
 -B n: Shows n lines before each match.
+
 -E (or egrep): Uses extended regular expressions for complex patterns.
 
 Examples:
@@ -167,6 +177,7 @@ awk '{print $1}' filename.txt
 
 Options:
 -F "delimiter": Sets a custom delimiter to separate fields.
+
 {print $n}: Prints a specific field ($1 is the first field, $2 is the second, etc.).
 
 Examples:
@@ -214,6 +225,7 @@ cut -d "delimiter" -f field_number filename.txt
 ```
 Options:
 -d "delimiter": Defines the delimiter, like a space, comma, or tab.
+
 -f field_number: Specifies which field(s) to extract.
 
 Examples:
