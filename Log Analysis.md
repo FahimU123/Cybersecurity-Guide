@@ -3,7 +3,7 @@
 # Command Breakdowns
 
 1. sort
-2. 
+   
 Purpose: Arranges lines of text in a file alphabetically or numerically.
 
 Basic Usage:
