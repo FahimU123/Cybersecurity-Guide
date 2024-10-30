@@ -1,6 +1,6 @@
 # Crytography
 
-#Number Bases
+# Number Bases
 
 Binary (Base 2): 01001000 01100101 01101100 01101100 01101111
 
